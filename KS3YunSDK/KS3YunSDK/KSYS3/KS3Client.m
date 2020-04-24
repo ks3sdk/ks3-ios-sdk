@@ -135,7 +135,7 @@ static NSTimeInterval const KingSoftYun_RequestTimeout = 600; // in seconds
         return @"ks3-cn-shanghai.ksyun.com";
     }
     if (_bucketDomainRegion == KS3BucketQingdao) {
-        return @"ks3-cn-qingdao.ksyun.com";
+        return @"ks3-cn-qingdao.ksyun.com"; 
     }
     return @"ks3-cn-beijing.ksyun.com";
 }
